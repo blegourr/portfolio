@@ -1,0 +1,22 @@
+.PageHome {
+  position: relative;
+  width: 100%;
+}
+
+.PageHome .background {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 0;
+  filter: blur(1.5rem);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.PageHome .background img {
+  margin: 15rem;
+  width: 50%;
+}
