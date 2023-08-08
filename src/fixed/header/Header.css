@@ -18,6 +18,12 @@
   border-radius: 50%;
   box-shadow: 0 0 1rem #000000c4;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.containerHeaderElementFixed .logo img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 1rem #777777c4;
 }
 
 .containerHeaderElementFixed .containerButton {

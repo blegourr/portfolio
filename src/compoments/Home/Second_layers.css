@@ -1,0 +1,100 @@
+.containerSecondLayer .skew{
+  height: 75vw;
+  max-height: 1500px;
+  background: rgba(110, 110, 110, 0.25);
+  transform: skewY(-2.5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSecondLayer .containerAbsolute {
+  height: 35vw;
+  width: 100%;
+  /* background: red; */
+  transform: skewY(2.5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerSecondLayer .containerAbsolute .title {
+  font-size: 1rem;
+  margin: 5vw;
+}
+
+.containerSecondLayer .containerAbsolute .containerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerSecondLayer .containerAbsolute .card {
+  background: #25253b98;
+  height: 25vw;
+  width: 20vw;
+  margin: 5vw;
+  transform: skewY(5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.5s ease-in-out, transform 0.25s ease-in-out;
+  box-shadow: 0 0 3rem #1e1e1ec4;
+  cursor: pointer;
+}
+
+.containerSecondLayer .containerAbsolute .card:hover {
+  transform: skewY(7deg) scale(1.05);
+  box-shadow: 0 0 2rem #777777c4;
+}
+
+
+.containerSecondLayer .containerAbsolute .card .containerElementInCard {
+  transform: skewY(-5deg);
+  width: 80%;
+  height: 90%;
+  /* background: green; */
+  transition: all 0.25s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard {
+  transform: skewY(-7deg);
+}
+
+.containerSecondLayer .containerAbsolute .card .containerElementInCard img {
+  margin-bottom: 2vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerSecondLayer .containerAbsolute .card .containerElementInCard h1 {
+  margin: 0.5vw;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerSecondLayer .containerAbsolute .card .containerElementInCard p {
+  margin-top: 0.25vw;
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerSecondLayer .containerAbsolute .card .containerElementInCard img {
+  text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+}
+
+.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard h1 {
+  text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+}
+
+.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard p {
+  text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+}
