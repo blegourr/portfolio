@@ -1,30 +1,33 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import './Header.css'
 import Blegourr from '../../compoments/assets/logo/Blegourr.webp'
 
 function Header() {
+  const nav = useNavigate();
+
 
   return (
     <div className='containerHeaderElementFixed'>
       {/* Page d'accueil, Mes projets, Mon histoire, Mes réseaux*/}
       <div className='logo'>
-        <img src={Blegourr} alt="" />
+        <img src={Blegourr} alt="logo de blegourr" onClick={() => nav("/")} />
       </div>
       <div className='containerButton'>
         <div className='button'>
-          <button>Page d'accueil</button>
+          <button onClick={() => nav("/")}>Page d'accueil</button>
           <div className="belowButton"></div>
         </div>
         <div className="button">
-          <button>Mes projets</button>
+          <button onClick={() => nav("/Projets")}>Mes projets</button>
           <div className="belowButton"></div>
         </div>
         <div className="button">
-          <button>Mon histoire</button>
+          <button onClick={() => nav("/Histoire")}>Mon histoire</button>
           <div className="belowButton"></div>
         </div>
         <div className="button">
-          <button>Mes réseaux</button>
+          <button onClick={() => nav("/Reseaux")}>Mes réseaux</button>
           <div className="belowButton"></div>
         </div>
       </div>

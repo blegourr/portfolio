@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import FirsLayers from '../compoments/NotFound/First_Layers'
 
 function NotFound() {
 
   return (
-    <>
-      404
-    </>
+    <div className="Page404">
+      <FirsLayers />
+    </div>
   )
 }
 

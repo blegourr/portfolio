@@ -24,7 +24,7 @@ function Home() {
             <div className="containerElementInCard">
             <img src={logoValiblanca_immo} alt="logo de la page web valiblanca.com" />
               <h1>Valiblanca_immo</h1>  
-              <p>Jusqu'à présent, le projet de la page web Valiblanca_immo se démarque comme mon accomplissement majeur, illustrant ma progression.</p>
+              <p>Jusqu'à présent, le projet de la page web Valiblanca_immo se démarque comme mon accomplissement majeur, illustrant ma progression au niveau du back-end.</p>
             </div>
           </div>
           <div className="card">

@@ -35,11 +35,7 @@
 
 .containerHeaderElementFixed .containerButton button {
   background: none;
-  cursor: pointer;
   border: 0;
-}
-
-.containerHeaderElementFixed .containerButton .button {
   cursor: pointer;
   display: flex;
   align-items: center;

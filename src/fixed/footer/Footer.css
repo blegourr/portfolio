@@ -1,0 +1,87 @@
+.footer {
+  position: relative;
+  width: 100%;
+  /* height: 35vw; */
+  /* background: green; */
+}
+
+.footer .top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 35vw;
+  z-index: -1;
+}
+
+.footer .top .svg {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .containerElement {
+  position: absolute;
+  top: 35vw;
+  width: 100%;
+  height: 25vw;
+  background: #373737;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer .containerElement .element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer .containerElement .element a {
+  margin: 0.25vw 0;
+  font-size: 1rem;
+}
+
+.footer .containerElement .element a:nth-child(1) {
+  margin-top: 1vw;
+}
+
+.footer .containerElement .subElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5vw 5vw 5vw;
+}
+
+.footer .containerElement .subElement .title {
+  font-size: 1.5rem;
+}
+
+.footer .containerElement button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.5vw;
+  font-size: 1rem;
+}
+
+.footer .containerElement .button .belowButton {
+  width: 0;
+  height: 0.2rem;
+  background:#eaffea;
+  transition: all 0.2s;
+  transform-origin: center;
+  opacity: 0;
+}
+
+
+.footer .containerElement .button:hover .belowButton {
+  width: 100%;
+  opacity: 1;
+}
