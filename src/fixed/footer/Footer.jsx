@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './Footer.css'
 
@@ -94,7 +93,7 @@ function Footer() {
             <div className="title">
               <p>Liens utiles</p>
             </div>
-            <div className="button">
+            <div className="button" onClick={() => nav("/Mentions_legales")}>
               <button onClick={() => nav("/Mentions_legales")}>Mentions légales</button>
               <div className="belowButton"></div>
             </div>

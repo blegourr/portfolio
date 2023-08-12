@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom';
 import './Second_layers.css'
 import imgMairieIco from '../assets/logo/imgMairieIco.ico'
 import logoValiblanca_immo from '../assets/logo/logoValiblanca_immo.svg'
 
 function Home() {
-
+  const nav = useNavigate();
 
   useEffect(() => {
     const card = document.querySelectorAll(".card")
@@ -71,7 +72,7 @@ function Home() {
             </div>
           </div>
           <div className='seeMore'>
-            <div className="button">
+            <div className="button" onClick={() => nav("/Projets")}>
               <button onClick={() => nav("/Projets")}>{"Voir plus de projets ->"}</button>
               <div className="belowButton"></div>
             </div>

@@ -14,19 +14,19 @@ function Header() {
         <img src={Blegourr} alt="logo de blegourr" onClick={() => nav("/")} />
       </div>
       <div className='containerButton'>
-        <div className='button'>
+        <div className='button' onClick={() => nav("/")}>
           <button onClick={() => nav("/")}>Page d'accueil</button>
           <div className="belowButton"></div>
         </div>
-        <div className="button">
+        <div className="button" onClick={() => nav("/Projets")}>
           <button onClick={() => nav("/Projets")}>Mes projets</button>
           <div className="belowButton"></div>
         </div>
-        <div className="button">
+        <div className="button" onClick={() => nav("/Histoire")}>
           <button onClick={() => nav("/Histoire")}>Mon histoire</button>
           <div className="belowButton"></div>
         </div>
-        <div className="button">
+        <div className="button" onClick={() => nav("/Reseaux")}>
           <button onClick={() => nav("/Reseaux")}>Mes réseaux</button>
           <div className="belowButton"></div>
         </div>
