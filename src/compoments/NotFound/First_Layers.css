@@ -1,0 +1,59 @@
+.containerFirstLayer404 {
+  height: 20vw;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.containerFirstLayer404 span {
+  font-size: 10rem;
+  transform: translateY(50%);
+  text-shadow: 0 0 4rem #fff;
+}
+
+@keyframes animation404Letter {
+  0%  {
+    text-shadow: 0 0 4rem #fff;
+  }
+
+  2%  {
+    text-shadow: 0 0 4rem #abaaaa;
+  }
+
+  5%  {
+    text-shadow: 0 0 4rem #ffffff00;
+  }
+
+  15%  {
+    text-shadow: 0 0 4rem #fff;
+  }
+
+  20%  {
+    text-shadow: 0 0 4rem #ffffff13;
+  }
+
+  25%  {
+    text-shadow: 0 0 4rem #fff;
+  }
+
+  30%  {
+    text-shadow: 0 0 4rem #ffffff10;
+  }
+
+  100% {
+    text-shadow: 0 0 4rem #fff;
+  }
+}
+
+.containerFirstLayer404 span:nth-child(3) {
+  font-size: 10rem;
+  transform: perspective(700px) translateY(100%) translateX(50%) rotate(45deg);
+  animation: animation404Letter 0.5s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+
+.containerFirstLayer404 span:nth-child(3):hover {
+  transform: perspective(7000px) translateY(100%) translateX(50%) rotate(45deg) rotateY(25deg);
+  
+}
