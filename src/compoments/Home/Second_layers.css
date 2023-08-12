@@ -35,30 +35,36 @@
 }
 
 .containerSecondLayer .containerAbsolute .card {
-  background: #25253b98;
   height: 25vw;
   width: 20vw;
   margin: 5vw;
   transform: skewY(5deg);
+}
+
+.containerSecondLayer .containerAbsolute .card .content-card {
+  background: #25253b98;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: box-shadow 0.5s ease-in-out, transform 0.25s ease-in-out;
   box-shadow: 0 0 3rem #1e1e1ec4;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
-.containerSecondLayer .containerAbsolute .card:hover {
-  transform: skewY(7deg) scale(1.05);
+.containerSecondLayer .containerAbsolute .content-card:hover {
+  transform: skewY(7deg);
   box-shadow: 0 0 2rem #777777c4;
 }
 
 
-.containerSecondLayer .containerAbsolute .card .containerElementInCard {
+.containerSecondLayer .containerAbsolute .content-card .containerElementInCard {
+  top: 0;
   transform: skewY(-5deg);
   width: 80%;
   height: 90%;
-  /* background: green; */
   transition: all 0.25s ease-in-out;
   display: flex;
   align-items: center;
@@ -67,37 +73,103 @@
   will-change: transform;
 }
 
-.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard {
+.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard {
   transform: skewY(-7deg);
 }
 
-.containerSecondLayer .containerAbsolute .card .containerElementInCard img {
+.containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
   margin-bottom: 2vw;
   width: 3.5vw;
   height: 3.5vw;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .card .containerElementInCard h1 {
+.containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
   margin: 0.5vw;
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .card .containerElementInCard p {
+.containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
   margin-top: 0.25vw;
   font-size: 0.8rem;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .card .containerElementInCard img {
+.containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
 }
 
-.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard h1 {
+.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard h1 {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
 }
 
-.containerSecondLayer .containerAbsolute .card:hover .containerElementInCard p {
+.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard p {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.containerSecondLayer .containerAbsolute .card {
+  width: 400px;
+  height: 600px;
+  perspective: 700px;
+}
+
+.containerSecondLayer .containerAbsolute .content-card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.15s ease-in-out;
+}
+
+.containerSecondLayer .containerAbsolute .content-card:hover{
+  transition: transition 0s linear, box-shadow 0.5s ease-in-out;
+}
+
+.containerSecondLayer .containerAbsolute .bg-animate {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  background: #474cb3;
+  filter: blur(180px);
+  border-radius: 300px;
+  opacity: 0;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  mix-blend-mode: soft-light;
+  will-change: contents;
+
+}
+
+.containerSecondLayer .containerAbsolute .card:hover .bg-animate {
+  opacity: 0.85;
+}
+
+
+.containerSecondLayer .containerAbsolute button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.5vw;
+  font-size: 1rem;
+}
+
+.containerSecondLayer .containerAbsolute .button .belowButton {
+  width: 0;
+  height: 0.2rem;
+  background:#eaffea;
+  transition: all 0.2s;
+  transform-origin: center;
+  opacity: 0;
+}
+
+
+.containerSecondLayer .containerAbsolute .button:hover .belowButton {
+  width: 100%;
+  opacity: 1;
 }
