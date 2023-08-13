@@ -1,0 +1,58 @@
+.containerFirstLayer {
+  height: 50vw;
+  max-height: 1500px;
+  width: 100%;
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFirstLayer .container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFirstLayer .containerElement {
+  margin: 0 0.5vw;
+}
+
+.containerFirstLayer .containerElement img {
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5rem #000000c4;
+  transition: box-shadow 0.5s ease-in-out, transform 2s ease-in-out;
+  cursor: pointer;
+}
+
+.containerFirstLayer .containerElement img:hover {
+  box-shadow: 0 0 2rem #6d6d6d8e;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.containerFirstLayer .containerElement img.active {
+  animation: rotate 2s;
+  animation-iteration-count: 1;
+}
+
+.containerFirstLayer .containerElement img.activeInversion {
+  animation: rotate 2s ease-in-out reverse;
+}
+
+.containerFirstLayer .containerElement p {
+  text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+  margin: 1.5vw;
+}

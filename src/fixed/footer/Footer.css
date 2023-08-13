@@ -41,6 +41,7 @@
 .footer .containerElement .element a {
   margin: 0.25vw 0;
   font-size: 1rem;
+  color: #a0a0ff;
 }
 
 .footer .containerElement .element a:nth-child(1) {
@@ -70,6 +71,7 @@
   margin-top: 0.5vw;
   font-size: 1rem;
   cursor: pointer;
+  color: #fff;
 }
 
 .footer .containerElement .button .belowButton {

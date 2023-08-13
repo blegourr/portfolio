@@ -23,7 +23,11 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-} 
+}
+
+.containerThirdLayers .containerElement div:nth-child(2) {
+  flex-direction: row-reverse;
+}
 
 .containerThirdLayers .containerElement div div.SubContainer {
   margin: 5vw;
