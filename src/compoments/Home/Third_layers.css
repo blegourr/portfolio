@@ -1,9 +1,9 @@
 .containerThirdLayers {
-  min-height: 75vw;
+  min-height: 60vw;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
 }
 .containerThirdLayers .title h1 {

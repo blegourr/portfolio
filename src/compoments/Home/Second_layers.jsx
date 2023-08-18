@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Second_layers.css'
 import imgMairieIco from '../assets/logo/imgMairieIco.ico'
 import logoValiblanca_immo from '../assets/logo/logoValiblanca_immo.svg'
+import sonataMusiqueLorient from '../assets/logo/sonataMusiqueLorient.png'
 
 function Home() {
   const nav = useNavigate();
@@ -67,7 +68,11 @@ function Home() {
             <div className="card">
               <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
                 <div className="bg-animate"></div>
-                <div className="containerElementInCard"></div>
+                <div className="containerElementInCard">
+                  <img src={sonataMusiqueLorient} alt="logo Sonata musique de Lorient" style={{ borderRadius: '50%' }} />
+                  <h1>Sonata Musicale de Lorient</h1>
+                  <p>Hé, vous jetez un œil à mon projet "Sonata Musicale de Lorient". Oui, je sais, ça sonne un peu officiel, mais en réalité, c'est juste mon travail pour les cours de SNT au lycée.</p>
+                </div>
               </div>
             </div>
           </div>

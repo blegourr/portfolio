@@ -1,0 +1,72 @@
+.PageMayocompagnie_bank .containerSecondLayer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .skew {
+  height: min-content;
+  background: rgba(110, 110, 110, 0.25);
+  transform: skewY(-2.5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vw 0;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute {
+  height: min-content;
+  width: 100%;
+  transform: skewY(2.5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15vw 5vw;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText img {
+  width: 25vw;
+  margin: 5vw;
+  border-radius: 1.5vw;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText.reverse {
+  flex-direction: row-reverse;
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText img {
+  transform: translateX(-200%) translateY(25%);
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText.reverse img {
+  transform: translateX(200%) translateY(25%);
+}
+
+.PageMayocompagnie_bank .containerSecondLayer .containerAbsolute .containerZone .containerParagraphe .containerText img.active {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+}

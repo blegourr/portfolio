@@ -11,6 +11,7 @@ import Footer from './fixed/footer/Footer';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound'
 import Projet from './pages/Projet';
+import Mayocompagnie_bank from  './pages/Mayocompagnie_bank'
 
 function App() {
   const ScrollToTop = () => {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/Projets' exact element={<Projet />} />
         <Route path='/Histoire' exact element={<NotFound />} />
         <Route path='/Reseaux' exact element={<NotFound />} />
+        <Route path='/Mayocompagnie_bank' exact element={<Mayocompagnie_bank />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

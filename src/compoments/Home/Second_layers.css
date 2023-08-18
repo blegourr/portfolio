@@ -1,4 +1,4 @@
-.containerSecondLayer .skew{
+.PageHome .containerSecondLayer .skew{
   height: 75vw;
   max-height: 1500px;
   background: rgba(110, 110, 110, 0.25);
@@ -8,10 +8,9 @@
   justify-content: center;
 }
 
-.containerSecondLayer .containerAbsolute {
+.PageHome .containerSecondLayer .containerAbsolute {
   height: 35vw;
   width: 100%;
-  /* background: red; */
   transform: skewY(2.5deg);
   display: flex;
   align-items: center;
@@ -19,29 +18,29 @@
   flex-direction: column;
 }
 
-.containerSecondLayer .containerAbsolute .title {
+.PageHome .containerSecondLayer .containerAbsolute .title {
   margin: 5vw;
 }
 
-.containerSecondLayer .containerAbsolute .title h1{
+.PageHome .containerSecondLayer .containerAbsolute .title h1{
   font-size: 3rem;
 }
 
-.containerSecondLayer .containerAbsolute .containerCard {
+.PageHome .containerSecondLayer .containerAbsolute .containerCard {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.containerSecondLayer .containerAbsolute .card {
+.PageHome .containerSecondLayer .containerAbsolute .card {
   height: 25vw;
   width: 20vw;
   margin: 5vw;
   transform: skewY(5deg);
 }
 
-.containerSecondLayer .containerAbsolute .card .content-card {
+.PageHome .containerSecondLayer .containerAbsolute .card .content-card {
   background: #25253b98;
   height: 100%;
   width: 100%;
@@ -54,12 +53,12 @@
   border-radius: 0.5rem;
 }
 
-.containerSecondLayer .containerAbsolute .content-card:hover {
+.PageHome .containerSecondLayer .containerAbsolute .content-card:hover {
   transform: skewY(7deg);
   box-shadow: 0 0 2rem #777777c4;
 }
 
-.containerSecondLayer .containerAbsolute .content-card .containerElementInCard {
+.PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard {
   top: 0;
   transform: skewY(-5deg);
   width: 80%;
@@ -72,59 +71,59 @@
   will-change: transform;
 }
 
-.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard {
+.PageHome .containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard {
   transform: skewY(-7deg);
 }
 
-.containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+.PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
   margin-bottom: 2vw;
   width: 3.5vw;
   height: 3.5vw;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
+.PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
   margin: 0.5vw;
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
+.PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
   margin-top: 0.25vw;
   font-size: 0.8rem;
   transition: all 0.3s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+.PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
 }
 
-.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard h1 {
+.PageHome .containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard h1 {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
 }
 
-.containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard p {
+.PageHome .containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard p {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
 }
 
-.containerSecondLayer .containerAbsolute .card {
+.PageHome .containerSecondLayer .containerAbsolute .card {
   width: 400px;
   height: 600px;
   perspective: 700px;
 }
 
-.containerSecondLayer .containerAbsolute .content-card {
+.PageHome .containerSecondLayer .containerAbsolute .content-card {
   width: 100%;
   height: 100%;
   overflow: hidden;
   transition: all 0.15s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .content-card:hover{
+.PageHome .containerSecondLayer .containerAbsolute .content-card:hover{
   transition: transition 0s linear, box-shadow 0.5s ease-in-out;
 }
 
-.containerSecondLayer .containerAbsolute .bg-animate {
+.PageHome .containerSecondLayer .containerAbsolute .bg-animate {
   position: absolute;
   width: 550px;
   height: 550px;
@@ -135,14 +134,13 @@
   transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   mix-blend-mode: soft-light;
   will-change: contents;
-
 }
 
-.containerSecondLayer .containerAbsolute .card:hover .bg-animate {
+.PageHome .containerSecondLayer .containerAbsolute .card:hover .bg-animate {
   opacity: 0.85;
 }
 
-.containerSecondLayer .containerAbsolute button {
+.PageHome .containerSecondLayer .containerAbsolute button {
   background: none;
   border: 0;
   cursor: pointer;
@@ -156,7 +154,7 @@
   color: #fff;
 }
 
-.containerSecondLayer .containerAbsolute .button .belowButton {
+.PageHome .containerSecondLayer .containerAbsolute .button .belowButton {
   width: 0;
   height: 0.2rem;
   background:#eaffea;
@@ -165,7 +163,7 @@
   opacity: 0;
 }
 
-.containerSecondLayer .containerAbsolute .button:hover .belowButton {
+.PageHome .containerSecondLayer .containerAbsolute .button:hover .belowButton {
   width: 100%;
   opacity: 1;
 }

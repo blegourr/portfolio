@@ -9,6 +9,8 @@ function Home() {
       <div className='background'>
         <img src={back} alt="" />
         <img src={back1} alt="" />
+        <img src={back1} alt="" />
+        <img src={back} alt="" />
       </div>
   )
 }
