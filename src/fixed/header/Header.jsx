@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './Header.css'
 import Blegourr from '../../compoments/assets/logo/Blegourr.webp'
@@ -15,7 +14,7 @@ function Header() {
       </div>
       <div className='containerButton'>
         <div className='button' onClick={() => nav("/")}>
-          <button onClick={() => nav("/")}>Page d'accueil</button>
+          <button onClick={() => nav("/")}>Page d&apos;accueil</button>
           <div className="belowButton"></div>
         </div>
         <div className="button" onClick={() => nav("/Projets")}>

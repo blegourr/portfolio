@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './First_Layers.css'
 import imgBlegourrRonger from '../assets/logo/Blegourr.webp'
 

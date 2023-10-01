@@ -30,7 +30,7 @@ function Home() {
 
       })
 
-      element.addEventListener('mouseleave', e => {
+      element.addEventListener('mouseleave', () => {
         element.children[0].style.transform = `rotateX(0deg) rotateY(0deg)`
       })
     })
@@ -46,12 +46,12 @@ function Home() {
           </div>
           <div className='containerCard'>
             <div className="card">
-              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
+              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }} onClick={() => window.open('https://www.larmor-plage.bzh/webcams-2/')}>
                 <div className="bg-animate"></div>
                 <div className="containerElementInCard">
                   <img src={imgMairieIco} alt="logo de la mairie de larmor plage" />
                   <h1>Webcams • Toulhars</h1>
-                  <p>En tant que bénévole pour la mairie de Larmor-Plage, j'ai réalisé ma première page web pour partager deux caméras touristiques captivantes avec le grand public.</p>
+                  <p>En tant que bénévole pour la mairie de Larmor-Plage, j&apos;ai réalisé ma première page web pour partager deux caméras touristiques captivantes avec le grand public.</p>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ function Home() {
                 <div className="containerElementInCard">
                   <img src={logoValiblanca_immo} alt="logo de la page web valiblanca.com" />
                   <h1>Valiblanca_immo</h1>
-                  <p>Jusqu'à présent, le projet de la page web Valiblanca_immo se démarque comme mon accomplissement majeur, illustrant ma progression au niveau du back-end.</p>
+                  <p>Jusqu&apos;à présent, le projet de la page web Valiblanca_immo se démarque comme mon accomplissement majeur, illustrant ma progression au niveau du back-end.</p>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ function Home() {
                 <div className="containerElementInCard">
                   <img src={sonataMusiqueLorient} alt="logo Sonata musique de Lorient" style={{ borderRadius: '50%' }} />
                   <h1>Sonata Musicale de Lorient</h1>
-                  <p>Hé, vous jetez un œil à mon projet "Sonata Musicale de Lorient". Oui, je sais, ça sonne un peu officiel, mais en réalité, c'est juste mon travail pour les cours de SNT au lycée.</p>
+                  <p>Hé, vous jetez un œil à mon projet &quot;Sonata Musicale de Lorient&quot;. Oui, je sais, ça sonne un peu officiel, mais en réalité, c&apos;est juste mon travail pour les cours de SNT au lycée.</p>
                 </div>
               </div>
             </div>
