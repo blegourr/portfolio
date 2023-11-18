@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Third_layers.css'
 import TrayNotif from '../assets/logo/trayNotif.jsx'
 
@@ -13,7 +12,7 @@ function Home() {
         <div>
           <div className='SubContainer'>
             <p>discord :</p>
-            <p>Je vous ouvre grand les portes de la communication via Discord, une plateforme propice à nos échanges constructifs. Si vous avez un plan pour un projet web palpitant, une idée qui chatouille votre créativité, ou même si vous souhaitez simplement discuter de quelque chose de plus technologiquement génial qu'une cuillère, je vous invite à faire un clic dans ma direction !</p>
+            <p>Je vous ouvre grand les portes de la communication via Discord, une plateforme propice à nos échanges constructifs. Si vous avez un plan pour un projet web palpitant, une idée qui chatouille votre créativité, ou même si vous souhaitez simplement discuter de quelque chose de plus technologiquement génial qu&apos;une cuillère, je vous invite à faire un clic dans ma direction !</p>
           </div>
           <div className='SubContainer'>
             <TrayNotif />
@@ -22,7 +21,7 @@ function Home() {
         <div>
           <div className='SubContainer'>
             <p>Mail :</p>
-            <p>Vous savez, mon email est un peu comme un super-héros du web, toujours prêt à sauver de nouveaux projets de l'oubli numérique ! Si vous avez un plan secret pour un projet web sensationnel, une idée qui brille plus fort que le code lumineux,  n'hésitez pas à me contacter. Mon email est là pour transformer vos idées en réalité digitale, une ligne de code à la fois.</p>
+            <p>Vous savez, mon email est un peu comme un super-héros du web, toujours prêt à sauver de nouveaux projets de l&apos;oubli numérique ! Si vous avez un plan secret pour un projet web sensationnel, une idée qui brille plus fort que le code lumineux,  n&apox;hésitez pas à me contacter. Mon email est là pour transformer vos idées en réalité digitale, une ligne de code à la fois.</p>
           </div>
           <div className='SubContainer'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">

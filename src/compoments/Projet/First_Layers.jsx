@@ -1,7 +1,5 @@
-import { useEffect, useState } from 'react'
 import './First_Layers.css'
 import BlegourrPortfolio from '../assets/logo/BlegourrPortfolio.png'
-import audioOhhhhNonnn from '../assets/audio/ohhhhhhhhNonnnnnn.mp3'
 
 function Home() {
 
@@ -33,7 +31,7 @@ function Home() {
           <img src={BlegourrPortfolio} alt="Photo de moi dans l'uniforme des pompiers" onContextMenu={handleContextImgBlegourrRonger} onClick={handleClickImgBlegourrRonger}/>
         </div>
         <div className="containerElement">
-          <p>Bienvenue dans la galerie "Regardez ce que j'ai créé !" où chaque projet se présente comme une petite œuvre d'art numérique. Jonglant avec des idées, transformant les défis en opportunités et admettons-le, ayant eu quelques débats sérieux avec mon écran, j'ai conçu chacun de ces projets avec amour et une bonne dose de café. De la magie du design web à la danse complexe du code, chaque projet raconte une histoire unique qui fusionne créativité et technologie, capturant l'essence de mes aventures digitales.</p>
+          <p>Bienvenue dans la galerie &quot;Regardez ce que j&apos;ai créé !&quot; où chaque projet se dévoile comme une petite œuvre d&apos;art qui m&apos;est propre. Naviguant entre les idées, et avouons-le, après quelques débats sérieux avec mon canard, j&apos;ai façonné chacun de ces projets avec passion et une bonne dose de café.</p>
         </div>
       </div>
     </div>

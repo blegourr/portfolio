@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound'
 import Projet from './pages/Projet';
 import Mayocompagnie_bank from  './pages/Mayocompagnie_bank'
+import Portfolio from './pages/Portfolio';
 
 function App() {
   const ScrollToTop = () => {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/Histoire' exact element={<NotFound />} />
         <Route path='/Reseaux' exact element={<NotFound />} />
         <Route path='/Mayocompagnie_bank' exact element={<Mayocompagnie_bank />} />
+        <Route path='/Portfolio' exact element={<Portfolio/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

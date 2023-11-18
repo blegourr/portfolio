@@ -2,11 +2,8 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './Second_layers.css'
 import imgMairieIco from '../assets/logo/imgMairieIco.ico'
-import logoValiblanca_immo from '../assets/logo/logoValiblanca_immo.svg'
 import logoPorfolio from '../assets/logo/BlegourrPortfolio.png'
-import sonataMusiqueLorient from '../assets/logo/sonataMusiqueLorient.png'
 import BlegourrBot from '../assets/logo/BlegourrBot.png'
-import COCO_HEBERGE from '../assets/logo/COCO_HEBERGE.svg'
 import Blegourr from '../assets/logo/Blegourr.webp'
 import ndc from '../assets/logo/ndc.png'
 
@@ -62,19 +59,7 @@ function Home() {
               </div>
             </div>
             <div className="card horizontal-card">
-              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
-                <div className="bg-animate"></div>
-                <div className="containerElementInCard">
-                  <img src={logoValiblanca_immo} alt="logo Valiblanca_immo" />
-                  <div className="h1contairer">
-                    <h1>Valiblanca_immo</h1>
-                  </div>
-                  <p>Jusqu&apos;à présent, le projet de la page web Valiblanca_immo se démarque comme mon accomplissement majeur, illustrant ma progression au niveau du back-end.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card horizontal-card">
-              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
+              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }} onClick={() => nav("/Portfolio")}>
                 <div className="bg-animate"></div>
                 <div className="containerElementInCard">
                   <img src={logoPorfolio} alt="logo de la mairie de larmor plage" style={{ borderRadius: '50%' }} />
@@ -94,30 +79,6 @@ function Home() {
                     <h1>Blegourr</h1>
                   </div>
                   <p>Laissez-moi vous présenter Blegourr, un projet personnel qui prend vie sous la forme d&apos;un bot Discord.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card vertical-card">
-              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
-                <div className="bg-animate"></div>
-                <div className="containerElementInCard">
-                  <img src={sonataMusiqueLorient} alt="logo Sonata musique de Lorient" style={{ borderRadius: '50%' }}/>
-                  <div className="h1contairer">
-                    <h1>Sonata Musicale de Lorient</h1>
-                  </div>
-                  <p>Hé, vous jetez un œil à mon projet &quot;Sonata Musicale de Lorient&quot;. Oui, je sais, ça sonne un peu officiel, mais en réalité, c&apos;est juste mon travail pour les cours de SNT au lycée.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card vertical-card">
-              <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
-                <div className="bg-animate"></div>
-                <div className="containerElementInCard">
-                  <img src={COCO_HEBERGE} alt="logo du site Coco-heberge" />
-                  <div className="h1contairer">
-                    <h1>Coco_Heberge</h1>
-                  </div>
-                  <p>Coco_heberge : un projet à trois visant à simplifier l&apos;hébergement de serveurs. Bien qu&apos;oublié, il demeure un accomplissement pour notre travail d&apos;équipe.</p>
                 </div>
               </div>
             </div>
@@ -145,7 +106,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="card horizontal-card">
+            <div className="card vertical-card">
               <div className="content-card" style={{ transform: "rotateX(0deg) rotateY(0deg)" }}>
                 <div className="bg-animate"></div>
                 <div className="containerElementInCard">

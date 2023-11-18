@@ -71,10 +71,6 @@
   will-change: transform;
 }
 
-.PageHome .containerSecondLayer .containerAbsolute .content-card:hover .containerElementInCard {
-  transform: skewY(-7deg);
-}
-
 .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
   margin-bottom: 2vw;
   width: 3.5vw;

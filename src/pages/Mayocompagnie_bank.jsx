@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Background from '../compoments/Mayocompagnie_bank/Background'
 import FirstLayer from '../compoments/Mayocompagnie_bank/First_Layers'
 import SecondLayer from '../compoments/Mayocompagnie_bank/Second_layers'

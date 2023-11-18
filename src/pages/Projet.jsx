@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Background from '../compoments/Projet/Background'
 import FirstLayer from '../compoments/Projet/First_Layers'
 import SecondLayer from '../compoments/Projet/Second_layers'

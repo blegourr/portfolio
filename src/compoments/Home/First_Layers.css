@@ -1,4 +1,4 @@
-.containerFirstLayer {
+.HomeContainerFirstLayer {
   height: 50vw;
   max-height: 1500px;
   width: 100%;
@@ -8,28 +8,42 @@
   justify-content: center;
 }
 
-.containerFirstLayer .container {
+.HomeContainerFirstLayer .container {
   width: 80%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  position: relative;
 }
 
-.containerFirstLayer .containerElement {
+.HomeContainerFirstLayer .containerElement {
   margin: 0 0.5vw;
+  position: relative;
+  width: 65%;
 }
 
-.containerFirstLayer .containerElement img {
-  width: 25vw;
+.HomeContainerFirstLayer .containerElement:first-child {
+  width: 30%;
   height: 25vw;
+}
+
+.HomeContainerFirstLayer .containerElement img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 5rem #000000c4;
-  transition: box-shadow 0.5s ease-in-out, transform 2s ease-in-out;
   cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 2s ease-in-out;
 }
 
-.containerFirstLayer .containerElement img:hover {
+.HomeContainerFirstLayer .containerElement img.hovered {
+  opacity: 1;
+}
+
+.HomeContainerFirstLayer .containerElement img:hover {
   box-shadow: 0 0 2rem #6d6d6d8e;
 }
 
@@ -43,16 +57,16 @@
   }
 }
 
-.containerFirstLayer .containerElement img.active {
+.HomeContainerFirstLayer .containerElement img.active {
   animation: rotate 2s;
   animation-iteration-count: 1;
 }
 
-.containerFirstLayer .containerElement img.activeInversion {
+.HomeContainerFirstLayer .containerElement img.activeInversion {
   animation: rotate 2s ease-in-out reverse;
 }
 
-.containerFirstLayer .containerElement p {
+.HomeContainerFirstLayer .containerElement p {
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
   margin: 1.5vw;
 }

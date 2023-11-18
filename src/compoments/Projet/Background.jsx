@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Background.css'
 import back from '../assets/svg/background.svg'
 import back1 from '../assets/svg/background1.svg'
