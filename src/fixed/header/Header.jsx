@@ -21,10 +21,6 @@ function Header() {
           <button onClick={() => nav("/Projets")}>Mes projets</button>
           <div className="belowButton"></div>
         </div>
-        <div className="button" onClick={() => nav("/Histoire")}>
-          <button onClick={() => nav("/Histoire")}>Mon histoire</button>
-          <div className="belowButton"></div>
-        </div>
         <div className="button" onClick={() => nav("/Reseaux")}>
           <button onClick={() => nav("/Reseaux")}>Mes réseaux</button>
           <div className="belowButton"></div>

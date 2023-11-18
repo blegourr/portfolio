@@ -1,11 +1,11 @@
-import Background from '../compoments/portfolio/Background'
 import FirstLayer from '../compoments/portfolio/FirstLayers/FirstLayers'
+import Contact from '../compoments/Home/Third_layers'
 function Portfolio() {
 
   return (
     <div className='PagePortfolio'>
-      <Background />
       <FirstLayer />
+      <Contact />
     </div>
   )
 }

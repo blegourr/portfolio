@@ -1,0 +1,48 @@
+.portfolioFirstLayers {
+  position: relative;
+  height: 45vw;
+  width: 100%
+}
+
+.portfolioFirstLayers .popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 40%;
+  background: rgba(47, 47, 47, 0.822);
+  border-radius: 1.5rem;
+  border: 1px solid #ccc;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+
+  animation: popup 1s forwards 1s;
+  opacity: 0;
+}
+
+.portfolioFirstLayers .popup h1,
+.portfolioFirstLayers .popup p {
+  text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.portfolioFirstLayers .popup span {
+  height: 2rem;
+}
+
+
+@keyframes popup {
+  0% {
+    transform: translate(-50%, -200%);
+    opacity: 0;
+  }
+  100%  {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
