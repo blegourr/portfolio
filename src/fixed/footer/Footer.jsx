@@ -86,7 +86,7 @@ function Footer() {
             <div className="title">
               <p>Nous Contacter</p>
             </div>
-            <a aria-label="contact mail" href="mailto:contact@blegourr.fr">contact@blegourr.fr</a>
+            <a href="mailto:contact@blegourr.fr">contact@blegourr.fr</a>
             <a href="https://discord.gg/9uWBQBnnf8">Rejoignez notre Discord</a>
           </div>
           <div className="mentionsLegal subElement">
