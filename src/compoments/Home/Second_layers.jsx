@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './Second_layers.css'
-import blegourrPortfolio from '../assets/logo/BlegourrPortfolio.png'
+import blegourrPortfolio from '../assets/logo/BlegourrPortfolio.webp'
 import blegourr from '../assets/logo/Blegourr.webp'
 import bonbon from '../assets/logo/bonbon.webp'
 

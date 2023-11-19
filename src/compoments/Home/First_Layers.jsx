@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import './First_Layers.css'
-import imgBlegourrRonger from '../assets/img/home/imgBlegourrRonger.jpg'
+import imgBlegourrRonger from '../assets/img/home/imgBlegourrRonger.webp'
 import imgOspm from '../assets/img/home/ospm.webp'
 import audioOhhhhNonnn from '../assets/audio/ohhhhhhhhNonnnnnn.mp3'
 

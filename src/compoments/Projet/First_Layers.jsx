@@ -1,5 +1,5 @@
 import './First_Layers.css'
-import BlegourrPortfolio from '../assets/logo/BlegourrPortfolio.png'
+import BlegourrPortfolio from '../assets/logo/BlegourrPortfolio.webp'
 
 function Home() {
 

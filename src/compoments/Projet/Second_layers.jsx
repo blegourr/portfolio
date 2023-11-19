@@ -2,10 +2,10 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './Second_layers.css'
 import imgMairieIco from '../assets/logo/imgMairieIco.ico'
-import logoPorfolio from '../assets/logo/BlegourrPortfolio.png'
-import BlegourrBot from '../assets/logo/BlegourrBot.png'
+import logoPorfolio from '../assets/logo/BlegourrPortfolio.webp'
+import BlegourrBot from '../assets/logo/BlegourrBot.webp'
 import Blegourr from '../assets/logo/Blegourr.webp'
-import ndc from '../assets/logo/ndc.png'
+import ndc from '../assets/logo/ndc.webp'
 
 function Home() {
   const nav = useNavigate();
