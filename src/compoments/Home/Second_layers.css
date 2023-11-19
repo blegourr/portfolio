@@ -22,7 +22,7 @@
   margin: 5vw;
 }
 
-.PageHome .containerSecondLayer .containerAbsolute .title h1{
+.PageHome .containerSecondLayer .containerAbsolute .title h1 {
   font-size: 3rem;
 }
 
@@ -76,6 +76,7 @@
   width: 3.5vw;
   height: 3.5vw;
   transition: all 0.3s ease-in-out;
+  border-radius: 50%;
 }
 
 .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
@@ -162,4 +163,136 @@
 .PageHome .containerSecondLayer .containerAbsolute .button:hover .belowButton {
   width: 100%;
   opacity: 1;
+}
+ 
+@media screen and (max-width: 1700px) {
+  .PageHome .containerSecondLayer .containerAbsolute .containerCard {
+    flex-direction: column;
+  }
+
+  .PageHome .containerSecondLayer {
+    height: max-content;
+  }
+  .PageHome .containerSecondLayer .skew {
+    height: 100%;
+    max-height: unset;
+  }
+  .PageHome .containerSecondLayer .containerAbsolute {
+    height: 100%;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
+    margin: 0.75vw;
+    font-size: 1.5rem;
+  }
+  
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
+    margin-top: 0.375vw;
+    font-size: 1.2rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute button {
+    font-size: 1.5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .title h1 {
+    font-size: 5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+    width: 5.25vw;
+    height: 5.25vw;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .seeMore {
+    padding-bottom: 5vw;
+  }
+
+}
+
+@media screen and (max-width: 1111px) {
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
+    margin: 1vw;
+    font-size: 2rem;
+  }
+  
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
+    margin-top: 0.5vw;
+    font-size: 1.6rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute button {
+    font-size: 2rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .title h1 {
+    font-size: 5.5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .seeMore {
+    padding-bottom: 7.5vw;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
+    margin: 1.5vw;
+    font-size: 2.5rem;
+  }
+  
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
+    margin-top: 0.75vw;
+    font-size: 2rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute button {
+    font-size: 2.5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .title h1 {
+    font-size: 6.5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+    width: 10.5vw;
+    height: 10.5vw;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .seeMore {
+    padding-bottom: 9vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard h1 {
+    margin: 2vw;
+    font-size: 4rem;
+  }
+  
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard p {
+    margin-top: 1vw;
+    font-size: 3.2rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute button {
+    font-size: 4rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .title h1 {
+    font-size: 7.5rem;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .content-card .containerElementInCard img {
+    width: 14vw;
+    height: 14vw;
+  }
+
+  .PageHome .containerSecondLayer .containerAbsolute .seeMore {
+    padding-bottom: 10.5vw;
+  }
 }
