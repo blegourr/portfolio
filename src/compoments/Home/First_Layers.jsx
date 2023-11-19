@@ -51,6 +51,7 @@ function Home() {
           src={imgOspm} 
           alt="L'orchestre des pompiers"             
           className={hoveredParagraph === 1 ? 'hovered' : ''}
+          
           />
           <img 
           src={imgBlegourrRonger} 
