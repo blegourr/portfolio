@@ -17,6 +17,7 @@
 @font-face {
   font-family: "Bion-Bold";
   src: url("./compoments/assets/font/Bion-Bold.woff2");
+  font-display: swap;
 }
 
 * {
