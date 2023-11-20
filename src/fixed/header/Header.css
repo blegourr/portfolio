@@ -33,7 +33,7 @@ header {
 }
 
 .containerHeaderElementFixed.scroll .background {
-  background: #0000003b;
+  background: #000000a2;
   border-bottom: #181818c4;
   filter: blur(0.25rem);
 }
