@@ -27,6 +27,7 @@ function Header() {
           <div className="belowButton"></div>
         </div>
       </div>
+      <div className='background'></div>
     </div>
     </header>
   )
