@@ -10,6 +10,7 @@ function Header() {
     <header>
       <div className='containerHeaderElementFixed scroll'>
         {/* Page d'accueil, Mes projets, Mon histoire, Mes réseaux*/}
+        <div className='background'></div>
         <div className="container">
           <div className='logo'>
             <img src={Blegourr} alt="logo de blegourr" onClick={() => nav("/")} />
@@ -29,7 +30,6 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className='background'></div>
       </div>
     </header>
   )
