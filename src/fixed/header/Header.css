@@ -12,6 +12,12 @@ header {
   /* background: red; */
   position: fixed;
   z-index: 15;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerHeaderElementFixed.scroll {
+  background: #0000003b;
+  border-bottom: #181818c4;
 }
 
 .containerHeaderElementFixed .logo {

@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header>
-    <div className='containerHeaderElementFixed'>
+    <div className='containerHeaderElementFixed scroll'>
       {/* Page d'accueil, Mes projets, Mon histoire, Mes réseaux*/}
       <div className='logo'>
         <img src={Blegourr} alt="logo de blegourr" onClick={() => nav("/")} />
