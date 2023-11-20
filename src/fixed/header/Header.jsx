@@ -7,6 +7,7 @@ function Header() {
 
 
   return (
+    <header>
     <div className='containerHeaderElementFixed'>
       {/* Page d'accueil, Mes projets, Mon histoire, Mes réseaux*/}
       <div className='logo'>
@@ -27,6 +28,7 @@ function Header() {
         </div>
       </div>
     </div>
+    </header>
   )
 }
 
