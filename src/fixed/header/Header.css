@@ -33,16 +33,9 @@ header {
 }
 
 .containerHeaderElementFixed.scroll .background {
-  /* background: #000000a2; */
   background: linear-gradient(#000000ee, #00000000) !important;
-  /* border-bottom: #181818c4; */
-  backdrop-filter: linear-gradient(blur(0.5rem), blur(0.25));
-  /* mask: linear-gradient(
-    rgba(0, 0, 0, 0) 12.5%,
-    rgba(0, 0, 0, 1) 25%,
-    rgba(0, 0, 0, 1) 37.5%,
-    rgba(0, 0, 0, 0) 50%
-  ); */
+  backdrop-filter: blur(0.5rem);
+  
 }
 
 .containerHeaderElementFixed .logo {
