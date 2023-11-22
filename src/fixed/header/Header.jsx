@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './Header.css'
 import Blegourr from '../../compoments/assets/logo/Blegourr.webp'
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 
 function Header() {
   const nav = useNavigate();
